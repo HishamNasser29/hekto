@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --maincolor: #FB2E86;
+    --secondcolor: #151875;
+    --theirdcolor: #1A0B5B;
+    --foredcolor:#0D0E43;
+    --firstfamily: "Lato", sans-serif; 
+}
+.container{
+    width: calc(100% - 480px);
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+
+.flex-grow-1{
+    flex-grow: 0.5;
+}
+.font-size-1{
+    font-size: 16px;
+
+}
