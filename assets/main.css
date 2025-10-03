@@ -1,6 +1,7 @@
 /*start header*/
 header{
     padding: 47px 0px;
+    
 }
 nav ul{
     display: flex;
@@ -36,22 +37,105 @@ nav ul{
     display: none;
 }
 /*end header*/
+/*start newlater*/
+.newslater{
+    background-image: url(./image/product/newslater.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 177px 0px;
+    text-align: center;
+    background-attachment: fixed; 
+}
+.newslater .text-newslater{
+    max-width: 600px;
+    line-height: 1.5;
+    margin: 0 auto;
+    font-size: 24px;
+}
+.newslater .btn-newslater{
+    margin-top: 29px;
+}
+.newslater .btn-newslater button{
+    border: none;
+    outline: none;
+    padding: 16px 34px;
+    border-radius: 2px;
+    background-color: var(--maincolor);
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.newslater .btn-newslater button:hover{
+    background-color: rgb(46, 44, 44);
+}
+
+/*end newlater*/
+/*start clients*/
+.clients .row{
+    margin: 96px 0px;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow: auto;
+    
+}
+@media screen and (max-width:1000px) {
+    .clients .logo{
+        width: calc((100% - 30px ) / 4);
+    }
+    
+}
+@media screen and (max-width:900px) {
+    .clients .logo{
+        width: calc((100% - 20px ) / 3);
+    }
+    
+}
+@media screen and (max-width:750px) {
+    .clients .logo{
+        width: calc((100% - 10px ) / 2);
+    }
+    
+}
+@media screen and (max-width:650px) {
+    .clients .logo{
+        width: calc((100% - 10px ) / 2);
+    }
+    
+}@media screen and (max-width:550px) {
+    .clients .logo{
+        width: calc((100% - 10px ) / 2);
+    }
+    
+}
+@media screen and (max-width:450px) {
+    .clients .logo{
+        width: calc((100% - 0px ) / 1);
+    }
+    
+}
+@media screen and (max-width:350px) {
+    .clients .logo{
+        width: calc((100% - 0px ) / 1);
+    }
+    
+}
+
+/*end clients*/
 /*start footer*/
 .footer{
     background-color: #EEEFFB;
     padding-top: 25px;
     padding-right: 240px;
     padding-bottom: 20px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+    
     
 }
 .left-footer{
     align-items: flex-start;
 }
 .left-footer form{
+    display: flex;
+    
     border: 1px solid #E7E6EF;
     border-radius: 2px;
 }
@@ -80,6 +164,7 @@ nav ul{
 .right-footer ul a:hover{
     text-decoration: underline;
 }
+/*end footer*/
 /*media coery*/
 @media screen and (max-width:1300px) {
     .list , .search {
