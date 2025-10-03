@@ -37,6 +37,124 @@ nav ul{
     display: none;
 }
 /*end header*/
+/*start featured product*/
+.Featured_Products{
+    padding: 50px 0;
+}
+.Featured_Products .row{
+    justify-content: flex-start;
+    gap: 30px;
+}
+.Featured_Products .product{
+    flex: 1 0 300px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+.product{
+    position: relative;
+}
+.product .icons-prodects{
+    display: none;
+}
+.product:hover .icons-prodects{
+    position: absolute;
+    top: 11px;
+    left: 11px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    
+}
+.Featured_Products .image{
+    padding: 30px;
+}
+
+.Featured_Products img{
+    background-color: #F6F7FB;
+    height: 178px;
+}
+
+.product .image a{
+    display: none;
+    color: #FFFFFF;
+    margin: auto;
+    text-align: center;
+    background-color: #08D15F;
+    width: 94px;
+    height: 29px;
+    padding: 9px 13px;
+    border-radius: 1px;
+}
+.product:hover .image a{
+    display: block;
+    color: #FFFFFF;
+    margin: auto;
+    text-align: center;
+    background-color: #08D15F;
+    width: 94px;
+    height: 29px;
+    padding: 9px 13px;
+    border-radius: 1px;
+}
+.product .product-details{
+    padding: 10px 0;
+    width: 100%;
+}
+.product .product-details{
+    transition: all 0.6s;
+}
+.product:hover .product-details{
+    width: 100%;
+    background-color: #2F1AC4;
+}
+.product:hover .product-details h3{
+    color: #FFFFFF;
+}
+.product:hover .product-details .color-options .btn-3{
+    background-color: #FFEAC1;
+}
+.product:hover .product-details .product-price .code{
+    text-shadow: 1px 0 #000000;
+    color: #FFFFFF;
+}
+.product:hover .product-details .product-price .price{
+    color: #FFFFFF;
+}
+.Featured_Products .color-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 0px;
+}
+.Featured_Products .color{
+    width: 14px;
+    height: 4px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+}
+.Featured_Products  .btn-1{
+    background-color: #05E6B7;
+} 
+.Featured_Products  .btn-2{
+    background-color: #F701A8;
+    border: 1px solid #000000;
+}
+.Featured_Products  .btn-3{
+    background-color: #00009D;
+}
+
+.Featured_Products .product-price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding-bottom: 15px;
+}
+/*end featured product*/
 /*start newlater*/
 .newslater{
     background-image: url(./image/product/newslater.webp);

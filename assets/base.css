@@ -51,8 +51,14 @@ ul{
     text-align: center;
 }
 /*text color*/
+.text-color0{
+    color: var(--maincolor);
+}
 .text-color1{
     color: var(--secondcolor);
+}
+.text-color2{
+    color: var(--theirdcolor);
 }
 .text-color-footer{
     color: var(--fivecolor);
@@ -86,11 +92,23 @@ ul{
     gap: 89px;
 }
 /*font size*/
-.font-size-1{
+.font-size-12px{
+    font-size: 12px;
+}
+.font-size-14px{
+    font-size: 14px;
+}
+.font-size-16px{
     font-size: 16px;
 }
-.font-size-2{
+.font-size-22px{
     font-size: 22px;
+}
+.font-size-18px{
+    font-size: 18px;
+}
+.font-size-42px{
+    font-size: 42px;
 }
 /*font family*/
 .font-family-1{
@@ -102,7 +120,11 @@ ul{
 .font-family-3{
     font-family: var(--therdfamily);
 }
-/*margin*/
+/*line heghit*/
+.line-heghit-1{
+    line-height:;
+}
+/*margin*/ 
 .margin-top-1{
     margin-top: 5px;
 }
@@ -111,6 +133,9 @@ ul{
 }
 .margin-top-3{
     margin-top: 15px;
+}
+.margin-bottom-1{
+    margin-bottom: 50px;
 }
 /*media coery*/
 @media screen and (max-width:1400px) {
