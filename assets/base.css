@@ -50,6 +50,10 @@ ul{
 .text-center{
     text-align: center;
 }
+/*line direction*/
+.line-direction{
+    text-decoration:line-through;
+}
 /*text color*/
 .text-color0{
     color: var(--maincolor);
@@ -59,6 +63,9 @@ ul{
 }
 .text-color2{
     color: var(--theirdcolor);
+}
+.text-color3{
+    color: #FB2448;
 }
 .text-color-footer{
     color: var(--fivecolor);
@@ -110,6 +117,9 @@ ul{
 .font-size-42px{
     font-size: 42px;
 }
+.font-size-53px{
+    font-size: 53px;
+}
 /*font family*/
 .font-family-1{
     font-family: var(--firstfamily);
@@ -124,6 +134,10 @@ ul{
 .line-heghit-1{
     line-height:;
 }
+/*font-weight*/
+.font-weight-1{
+    font-weight: 400;
+}
 /*margin*/ 
 .margin-top-1{
     margin-top: 5px;
@@ -136,6 +150,10 @@ ul{
 }
 .margin-bottom-1{
     margin-bottom: 50px;
+}
+/*padding*/
+.paading-right-1{
+    padding-right: 350px;
 }
 /*media coery*/
 @media screen and (max-width:1400px) {
