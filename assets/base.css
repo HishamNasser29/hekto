@@ -67,6 +67,12 @@ ul{
 .text-color3{
     color: #FB2448;
 }
+.text-color4{
+    color: rgba(26, 11, 91, 0.3);
+}
+.text-color5{
+    color: rgba(21, 24, 117, 0.3);
+}
 .text-color-footer{
     color: var(--fivecolor);
 }
@@ -132,7 +138,7 @@ ul{
 }
 /*line heghit*/
 .line-heghit-1{
-    line-height:;
+    line-height:25px;
 }
 /*font-weight*/
 .font-weight-1{

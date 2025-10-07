@@ -259,10 +259,11 @@ nav ul{
 .Leatest_Products .row{
     justify-content: flex-start;
     gap: 30px;
+    margin: 58px 0;
+    
 }
 .products-leatest{
-    margin-top: 58px;
-    margin-bottom: 50px;
+    
     position: relative;
     flex: 1 0 25%;
     transition: transform 0.2s box-shadow 0.2s cursor 0.2s;
@@ -331,6 +332,81 @@ nav ul{
     
 }
 /*end leastest product*/
+/*start shopex offer*/
+.Shopex_Offer .row{
+    justify-content: flex-start;
+    gap: 28px;
+    margin: 55px 0;
+    
+}
+.Shopex_Offer .products{
+    flex: 1 0 270px;
+    
+    transition: all 0.2s;
+}
+.Shopex_Offer .products:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 4px 0 #00000040;
+}
+.Shopex_Offer .products .image{
+    width: 200px;
+    padding: 30px 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Shopex_Offer .products .contant{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    padding: 27px 60px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+/*end shopex offer*/
+/*start Trending_Products*/
+.Trending_Products .row{
+    justify-content: flex-start;
+    gap: 29px;
+    margin: 39px 0;
+}
+.Trending_Products .products{
+    flex: 1 0 200px;
+    transition: all 0.2s;
+}
+.Trending_Products .products:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 4px 0 #00000040;
+}
+.Trending_Products .products .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.Trending_Products .products .image img{
+    max-width: 100%;
+}
+.Trending_Products .products .contant{
+    text-align: center;
+    display: flex;
+    padding: 15px 0;
+    flex-direction: column;
+    gap: 8px;
+}
+.Trending_Products .products .contant h3{
+    text-align: center;
+}
+.Trending_Products .products .contant .price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+/*end Trending_Products*/
 /*start newlater*/
 .newslater{
     background-image: url(./image/product/newslater.webp);
