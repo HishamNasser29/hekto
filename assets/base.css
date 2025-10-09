@@ -114,6 +114,9 @@ ul{
 .font-size-16px{
     font-size: 16px;
 }
+.font-size-20px{
+    font-size: 20px;
+}
 .font-size-22px{
     font-size: 22px;
 }
@@ -144,6 +147,10 @@ ul{
 .font-weight-1{
     font-weight: 400;
 }
+/*word sapcing*/
+.word-spacing{
+    word-spacing: 5px;
+}
 /*margin*/ 
 .margin-top-1{
     margin-top: 5px;
@@ -153,6 +160,9 @@ ul{
 }
 .margin-top-3{
     margin-top: 15px;
+}
+.margin-top-4{
+    margin-top: 27px;
 }
 .margin-bottom-1{
     margin-bottom: 50px;
