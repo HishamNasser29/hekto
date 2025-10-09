@@ -439,7 +439,7 @@ nav ul {
 }
 
 .Trending_Products .products {
-    flex: 1 0 200px;
+    flex: 1 0 300px;
     transition: all 0.2s;
 }
 
@@ -646,6 +646,70 @@ nav ul {
 }
 
 /*end clients*/
+/*start leatest blog*/
+.Leatest_Blog .row{
+    justify-content: flex-start;
+    padding: 80px 0;
+    gap: 56px;
+}
+.Leatest_Blog .products{
+    flex: 1 0 300px;
+    transition: all 0.5s;
+}
+.Leatest_Blog .products:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 4px 0 #00000040;
+}
+.Leatest_Blog .products .image img{
+    width: 100%;
+    border-radius: 8px;
+}
+.Leatest_Blog .products .contant{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 30px;
+    padding: 15px 0 25px 15px;
+}
+.Leatest_Blog .products .contant .icon{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29px;
+}
+.Leatest_Blog .products .contant .icon .left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6px;
+}
+.Leatest_Blog .products .contant .icon .right{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6px;
+}
+.Leatest_Blog .products .contant .explain{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 16px;
+    
+    
+}
+.Leatest_Blog .products .contant .explain a{
+    text-decoration: underline;
+    
+}
+.Leatest_Blog .products:hover .contant .explain h2{
+    color: var(--maincolor);
+}
+.Leatest_Blog .products:hover .contant .explain a{
+    color: var(--maincolor);
+}
+
+
+
+/*end leatest blog*/
 /*start footer*/
 .footer {
     background-color: #EEEFFB;

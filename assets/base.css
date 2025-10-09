@@ -73,6 +73,9 @@ ul{
 .text-color5{
     color: rgba(21, 24, 117, 0.3);
 }
+.text-color6{
+    color: #72718F;
+}
 .text-color-footer{
     color: var(--fivecolor);
 }
@@ -113,6 +116,9 @@ ul{
 }
 .font-size-16px{
     font-size: 16px;
+}
+.font-size-18px{
+    font-size: 18px;
 }
 .font-size-20px{
     font-size: 20px;
@@ -170,6 +176,9 @@ ul{
 /*padding*/
 .paading-right-1{
     padding-right: 350px;
+}
+.paading-right-2{
+    padding-right: 120px;
 }
 /*media coery*/
 @media screen and (max-width:1400px) {
